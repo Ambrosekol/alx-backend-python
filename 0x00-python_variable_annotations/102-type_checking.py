@@ -23,7 +23,7 @@ zoom_3x = zoom_array(array, 3.0)
 from typing import Any, List, Tuple, Union
 
 
-def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
+def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> List:
     """
     Use mypy to validate the following piece of code and
     apply any necessary changes.
@@ -33,7 +33,7 @@ def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
         item for item in lst
         for i in range(factor)
     )
-    return zoomed_in
+    return [zoomed_in]
 
 
 array = (12, 72, 91)
