@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-to_kv = __import__('7-to_kv').to_kv
+zoom_array =  __import__('102-type_checking').zoom_array
 
-print(to_kv.__annotations__)
-print(to_kv("eggs", 3))
-print(to_kv("school", 0.02))
+print(zoom_array.__annotations__)
