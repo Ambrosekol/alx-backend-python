@@ -1,5 +1,3 @@
-#!/usr/bin/bash
-
 mypy ./0x00-python_variable_annotations/*.py
 pycodestyle ./0x00-python_variable_annotations/*.py
 git add ./0x00-python_variable_annotations
