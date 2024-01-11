@@ -12,7 +12,7 @@ def safe_first_element(lst):
 """
 
 
-from typing import Any, Iterable, Union, Sequence
+from typing import Any, Union, Sequence
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
