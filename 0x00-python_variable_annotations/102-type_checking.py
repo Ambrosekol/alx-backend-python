@@ -24,6 +24,11 @@ from typing import Any, List, Tuple, Union
 
 
 def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
+    """
+    Use mypy to validate the following piece of code and
+    apply any necessary changes.
+    """
+
     zoomed_in: Tuple[int, ...] = tuple(
         item for item in lst
         for i in range(factor)
