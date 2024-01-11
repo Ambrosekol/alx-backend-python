@@ -12,7 +12,7 @@ annotated as a float.
 from typing import Tuple, Union
 
 
-def to_kv(k: str, v: Union[int, float]) -> Tuple[str, int | float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Write a type-annotated function to_kv that takes a string k
     and an int OR float v as arguments and returns a tuple.
@@ -20,5 +20,5 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, int | float]:
     element is the square of the int/float v and should be
     annotated as a float.
     """
-    sqare: int | float = v*v
+    sqare: float = v*v
     return (k, sqare)
