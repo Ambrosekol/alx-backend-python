@@ -8,12 +8,11 @@ float value) seconds and eventually returns it.
 """
 
 
-from typing import Union
 import random
 import asyncio
 
 
-async def wait_random(max_delay: int = 10) -> Union[int, float]:
+async def wait_random(max_delay: int = 10) -> float:
     """
     waits for a random delay between 0 and max_delay (included and
     float value) seconds and eventually returns it.
